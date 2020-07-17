@@ -28,4 +28,4 @@ jobs:
         tag_with_ref: true
         # Automatically tags the built image with the git short SHA as per the readme
         path: ./WorkerServiceDateTime
-        dockerfile: ./WorkerServiceDateTime/Dockerfile 
+        dockerfile: /{path}/Dockerfile 
