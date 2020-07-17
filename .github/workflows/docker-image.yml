@@ -26,7 +26,7 @@ jobs:
         # Server address of Docker registry. If not set then will default to Docker Hub
         repository: robertocamara/workerservicedatetime
         # Comma-delimited list of tags. These will be added to the registry/repository to form the image's tags
-        tags: refs/heads/master
+        tags: 'refs/heads/master'
         # Automatically tags the built image with the git reference as per the readme
         tag_with_ref: true
         # Automatically tags the built image with the git short SHA as per the readme
